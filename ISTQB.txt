@@ -1,0 +1,120 @@
+And Sound and fun points to be noted for wacky(Swee)
+	And Func >> Verify game comes under correct category
+	When UI: Loading 0% text should be middle
+	When Sound: Guitar play when game opens and match the music for 5 min at back bird
+	When Sound: Buy button >> Check for sound play when tap on BUY button.
+	When Func: Purchase Internet Time >> User can select only time which values is less or equals to total wins
+	When Func: Purchase Internet Time >> Selected time should add into entries and deduct from total wins
+	When Func: Purchase Internet Time >> When Total wins less than 1:00 time then all times should be disable
+	When Sound: Purchase Internet Time >> Sound play when tap on enable time option
+	When Func: Purchase Internet Time >> BUY ALL >> When tap on buy all button then all total wins should add into entries and deduct from total wins
+	When Func: Purchase Internet Time >> When buy all then total wins should be zero and BUY ALL button disable
+	When UI >> Purchase Internet Time >> Position of BUY All button
+	When Sound >> Purchase Internet Time >> Sound play when tap on BUY ALL button
+	When Sound >> Purchase Internet Time >> Sound play when tap on No button
+	When Sound >> Purchase Internet Time >> Sound play when tap on YES button
+	When Func >> Purchase Internet Time >> popup close when tap on no button
+	When Func >> Purchase Internet Time >> popup close when tap on Yes button and next time Buy All button disable
+	When Func >> Purchase Internet Time >> When select any time option then popup should not close but amount should add and deduct.
+	When Func >> Purchase Internet Time >> Popup close when tap on cross icon from both side.
+	When Sound >> Purchase Internet Time >> When tap on cross icon then sound play from both side.
+	When Sound >> Setting button >> Sound play when tap on setting button
+	When Func >> Setting button >> Settings popup opens when tap on setting button
+	When Func >> Setting >> volume should high, low, mute and unmute when tap on volume icon.
+	When Sound >> Settings >> Sound play when tap on volume icon (mute, unmute, low and high)
+	When Sound >> Settings >> Sound play when tap on Lines
+	When Func >> Settings >> Lines dray when tap on lines and increment/decrement button should be disable
+	When Sound >> Settings >> No sound play when tap on + and - button for lines as these are disable
+	When Sound >> Settings >> Sound play when tap on + and - button for bets
+	When Func >> Settings >> Match all bets with reference game's bets
+	When Func >> Settings >> Bets should be increase on tapping + button and decrease by tapping - button.
+	When Func >> Settings >> When we have max bet and tap on + icon then min bet comes
+	When Func >> Settings >> When we have min bet and tap on - icon then max bet comes
+	When Func >> Settings >> When increase or decrease bet then it should also update in total played
+	When Sound >> Settings >>No sound play when tap coin value option and + and - icon
+	When Func >> Settings >> + and - button should be disabe for coin value and coin value should be 0.01
+	When Sound >> Settings >> Sound play when tap on OK button
+	When Func >> Settings >> Popup should not close when tap outside of popup
+	When Func >> Home icon >> User redirect to game lobby when tap on home icon and sound should also play for game lobby.
+	When Func >> When again opens the game the background guitar play again.
+	When Sound >> Home icon >> Sound play on tapping home icon
+	When Sound >> Jackpot/Activate >> Sound play on tapping both buttons
+	When Func >> Jackpot >> When tap on jackpot then its convert to Activate
+	When Func >> Activate >> When tap on Activate then its convert to Jackpot
+	When Func >> Win text box >> At very first time Win box should be empty
+	When Sound >> Total Played >> Sound play when tap on + and - button
+	When Func >> Total Played >> Match all bets with reference game's bets
+	When Func >> Total Played >> Bets should be increase on tapping + button and decrease by tapping - button.
+	When Func >> Total Played >> When we have max bet and tap on + icon then min bet comes
+	When Func >> Total Played >> When we have min bet and tap on - icon then max bet comes
+	When Func >> Total Played >> When increase or decrease total played then it should also update in settings
+	When Sound >> Lines >> Sound play when tap on Lines
+	When Func >> Lines >> All Lines dray when tap on lines
+	When Func >> Lines >> Lines total should be same at both side in setting and at game play.
+	When Sound >> Info >> Sound play when tap on info icon
+	When Sound >> Info >> Sound play for all next and previous buttons
+	When Func >> Info >> Paytable value should be updated as per the change in bet amount.
+	When Func >> Info >> Buttons behind the info screen should be disable
+	When Sound >> Info >> No sound play when tap on buttons behind the info screen
+	When Sound >> Info >> Sound play when tap on info back button
+	When Sound >> Reveal >> Sound play when tap on reveal button and should be matched with ref game.
+	When Func >> Reveal >> Check the posibility of wins between both game
+	When Func >> Reveal >> Jackpot should get by user when met the scenario
+	When Func >> Reveal >> When user win then sounds play (Diff sound for diff win)
+	When Sweeper User >> Reveal >> Sound >> When Wins automatically credits into total wins then sound play and should match with ref
+	When Need to confirm >> Sweeper User >> func >> Reveal >> When user win then no Take button display to get wins. Wins automatically added into Total Wins and Win text box empty.
+	When Func >> Reveal >> When Entries are less than bet and having total win bal and tap on reveal button then no action perform and message should display
+	When Func >> Reveal >> Entries should be deducted as per the bet/total played amount
+	When Func >> Reveal >> When game over then message should display below the WIN text box
+	When Func >> Reveal >> When reveal the spin then stop button should display instead of reveal.
+	When Sound >> Auto >> Sound play when tap on auto button and should be matched with ref game.
+	When Func >> Auto >> Check the posibility of wins between both game
+	When Func >> Auto >> Jackpot should get by user when met the scenario
+	When Func >> Auto >> When user win then sounds play (Diff sound for diff win)
+	When Sweeper User >> Sound >> Auto >>  When Wins automatically credits into total wins then sound play and should match with ref
+	When Sweeper User >> func >> Auto >> When user win then Wins automatically added into Total Wins and Win text box empty.
+	When Func >> Auto >> When Entries are less than bet and having total win bal and tap on reveal button then no action perform and message should display
+	When Func >> Auto >> Entries should be deducted as per the bet/total played amount
+	When Func >> Auto >> When game over then message should display below the WIN text box
+	When Func >> Auto >> Game should play until total played less than entries. After that stop automatically
+	When Func >> Auto >> In auto during every spin correct amount deducted from entries and correct amount added into total wins.
+	When Func >> Amount deposit from admin should update correctly (check with min) in game without logout.
+	When  Func >> Buy >> Selected time should be added into the entries correctly and correct amount should be deducted from total wins
+	When Func >> When buy all times then all times should be added into the entries and total wins should be zero
+	When Func >> When play the game then wins should not draw out of given lines pattern
+	When Func >> Check for free game ? 
+	When Func >> Jackpot Scenario
+
+
+1. Increment in jackpot only when the bet amount is greater than or equals to min bet amount
+2. No increment should be in jackpot if bet amount is less than min bet amount
+3. Min bet amount OR other thing is display in jackpot section
+4. Play the G and verify user should get winning amount between min and max win amount
+5. The jackpot should increment after spin as per the formula min bet amount*charges/100
+6. No increment should happen if the jackpot is inactive from admin
+7. Starting value ? 
+8. No. of member?
+9. Type ?
+10. Free Spin?
+11. Bonus?
+
+
+	When Func >> Common for all popup >> No behind action should perform
+	When UI >> When again opens the game from game lobby then lines should be drawn
+	When Classic
+	When Check for all above sound and func
+	When UI >> Buy button should not display
+	When UI >> Credit and Balance field should display 
+	When Func >> Credits and Balance >> After every spin amount should deducted from credits and as well as from balance
+	When Func >> Credits and Balance >> After every win amount should added into credits and as well as in balance
+	When Func >> In classic no take button display. Its automatically
+	When Func >> No double option display (Sweeper or Classic)
+	When Func >> When tap on take button then win should added into the credits/balance and other options if exists and win text field zero
+	When Sound >> Take button >> Sound play when tap on take button and also play sound for credits into balance
+	When Sound >> Double button >> Sound play when tap on double button
+	When Reveal spin then all buttons should be disable
+	When Func >> Double button >> When tap on double button then redirect to double to win screen
+	When Sound >> Red/Black/Take/Auto >> Sound play for win/loss when tap on red or black button
+	When Func >> Double >> Check the possibility with refer game as how many times user get double
+	When Func >> Doubel >> When amount is double then correct double amount should added into the credit or other options
+	When Sound >> Double >> When take for double amount then sound play for credits
