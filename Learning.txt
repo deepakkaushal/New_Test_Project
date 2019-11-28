@@ -1,0 +1,63 @@
+UI Issues:
+1. Logo of game is small as compare to referenceerence game.
+2. Game Downloading Screen >> Text please wait should be in middle as reference and text should be correct (Please wait Downloading updates... 34%)
+3. Game Play screen >>
+Home icon should be at top-left corner, Buy button should be right side as display in reference game, settings and info option should be in + icon
+Jackpot panel is small as compare to reference. Three box should be cover by panel
+Jackpot /Activate background color is not matched with reference
+Bottom panel >> The fields order should be same as reference
+Only reveal, Take, Double symbol display instead of reveal text on button
+Auto, reveal, buy and home buttons are not matched with reference for font style, size, boundary color and background color
+Bottom panel >> All fields should be display as rectangle not oval. Should be same as reference
+Bottom panel >> Text field WIN should be overlap with line as display in reference
+Jackpot panel >> Gold and diamond options should be right aligned as display in reference.
+4. Jackpot >> Activate section >> Gold background display for $0.05 but in reference its red
+5. At very first time WIN field display with - special char. It should be blank as compare to referenceerence game.
+6. Double button position should right as display in referenceerence game
+7. Info >> Next and pre buttons should be small and color/bounday should also same as reference
+8. Both info screen >> All spinning reels, boundaries and numbers are dull as compare to reference
+9. No background should display when Purchase Internet Time popup opens
+10. Buy All button should be at bottom of screen as reference
+11. Total Win field >> There should be space between 0:00 and USD.
+12. When double screen opens then Auto button should not display
+13. Double >> UI of the double popup is dark as compare to reference
+14. Double >> Previous cards are less as compared to reference
+15. Double >> Red button, Card and Black button should be dark as reference
+
+    Functional Issue:
+1. When game starts then lines are not display on play game screen
+2. Info >> When open the info screen then I can tap on lines field and its working at background. It should be disable as its at background
+3. Settings >> Coins value's + and - icons should be disable as reference
+4. Settings >> Volume functionality is different from reference
+5. Settings  >> When open the setting screen then I can tap on lines field and its working at background. It should be disable as its at background
+6. Purchase Internet Time popup >> When select any time period then popup should not close. Now its close. it should only close for Buy All option
+7. When tap on lines field then lines are not drawn as drawn in reference
+8. Actual result >> When click on take button then all wins transfer to Total Wins and Win field blank. Expected result as per reference >> When tap on take icon then all wins transfer to Total Wins but in Wins field first show zero and suddenly display with last got Win amount. And after that when play again then its zero. Functionality should work same as reference
+9. When deposit amount from admin then not updated in game. Need to relogged in to get updated amount.
+10. Lines draw functionality not working >> As a user i palying for 3 lines but in game play all lines display at left and right. It should work like reference game
+11. Total Price display with minus sign. referenceer screenshot
+12. After revealing the wheel message display in bottom "Game Over, Press reveal to play" but its not display in reference game
+13. Payout functionality >>
+14. Cashback >> After balance zero
+15. Jackpot >> Check with formula
+
+    Sound Issue:
+1. No sound on tapping home icon
+2. Jackpot >> When tap on jackpot/activate button then sound mismatched
+3. Info >> Sound not matched when open the info screen. Sound should be little bit heavy as reference
+4. Info >> Sound not matched when close the info screen as reference game
+5. Info >> Sound is little slow as reference when tap on next and prev buton
+6. No sound play when open and close the settings.
+7. Settings >> No sound play when tap on + and - icon for lines
+8. Settings >> Sound mismatched when tap on + and - icon for Bets
+9. Settings >> No sound play when tap on volume icon for mute and unmute
+10. Sound mismatched when tap on Buy button and no sound play when close the Buy popup.
+11. Sound mismatched when select any time from popup and tap on Buy All, No and Yes button
+12. Sound mismatch when tap on lines field
+13. Total Played >> Sound not matched with reference when tap on + and - icon to increase or decrease bets
+14. Sound mismatched when tap on double button
+15. Sound mismatched when double screen opens
+16. As reference game when tap on red or black button to double then no sound play when amount not double but in our game sound play on tapping both buttons for no double.
+17. Reveal the spin >> Game play sound should be soft as reference game
+18. When win game then sound should play with bass as reference game
+19. Auto play sound not matched with reference game.
